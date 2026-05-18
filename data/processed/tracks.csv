@@ -1,0 +1,101 @@
+track_id,title,artist,subset,split,genre_top,path,duration
+10,Freeway,Kurt Vile,small,training,Pop,data/raw/fma_small/000/000010.mp3,29.976575963718822
+140,Queen Of The Wires,Alec K. Redfearn & the Eyesores,small,training,Folk,data/raw/fma_small/000/000140.mp3,29.976575963718822
+141,Ohio,Alec K. Redfearn & the Eyesores,small,training,Folk,data/raw/fma_small/000/000141.mp3,29.976575963718822
+190,Castle Of Stars,Ed Askew,small,training,Folk,data/raw/fma_small/000/000190.mp3,30.00269841269841
+193,Here With You,Ed Askew,small,training,Folk,data/raw/fma_small/000/000193.mp3,29.976575963718822
+194,All I want to Do,Ed Askew,small,training,Folk,data/raw/fma_small/000/000194.mp3,30.00269841269841
+197,Piano 2,Ed Askew,small,training,Folk,data/raw/fma_small/000/000197.mp3,29.976575963718822
+200,Baby Come Home,Ed Askew,small,training,Folk,data/raw/fma_small/000/000200.mp3,29.976575963718822
+203,Song For R,Ed Askew,small,training,Folk,data/raw/fma_small/000/000203.mp3,29.976575963718822
+204,My Dream,Ed Askew,small,training,Folk,data/raw/fma_small/000/000204.mp3,29.976575963718822
+207,Piano 3,Ed Askew,small,training,Folk,data/raw/fma_small/000/000207.mp3,29.976575963718822
+210,In the French Court,Ed Askew,small,training,Folk,data/raw/fma_small/000/000210.mp3,30.00269841269841
+211,In America,Ed Askew,small,training,Folk,data/raw/fma_small/000/000211.mp3,29.976575963718822
+212,When I Arive,Ed Askew,small,training,Folk,data/raw/fma_small/000/000212.mp3,29.976575963718822
+213,Boute,Au,small,training,Pop,data/raw/fma_small/000/000213.mp3,29.976575963718822
+534,I Can See You,Charles Manson,small,training,Folk,data/raw/fma_small/000/000534.mp3,29.976575963718822
+540,The Black Pirate,Charles Manson,small,training,Folk,data/raw/fma_small/000/000540.mp3,29.976575963718822
+546,If You Have No One,Charles Manson,small,training,Folk,data/raw/fma_small/000/000546.mp3,29.976575963718822
+602,Disappearing,Dora Bleu,small,validation,Folk,data/raw/fma_small/000/000602.mp3,29.976575963718822
+620,Arabesque,Ed Askew,small,training,Folk,data/raw/fma_small/000/000620.mp3,29.976575963718822
+621,Blue Eyed Baby,Ed Askew,small,training,Folk,data/raw/fma_small/000/000621.mp3,29.976575963718822
+625,Climbing To The Top,Ed Askew,small,training,Folk,data/raw/fma_small/000/000625.mp3,30.00269841269841
+714,Circle Moon,Fursaxa,small,training,Folk,data/raw/fma_small/000/000714.mp3,29.976575963718822
+715,Kokopelli,Fursaxa,small,training,Folk,data/raw/fma_small/000/000715.mp3,29.976575963718822
+716,Saxalainen,Fursaxa,small,training,Folk,data/raw/fma_small/000/000716.mp3,29.976575963718822
+718,Song Of The Spindle Berry,Fursaxa,small,training,Folk,data/raw/fma_small/000/000718.mp3,30.00269841269841
+814,Motion Passings,Hall Of Fame,small,training,Folk,data/raw/fma_small/000/000814.mp3,29.976575963718822
+821,Sir,Hecuba,small,training,Pop,data/raw/fma_small/000/000821.mp3,30.00269841269841
+822,Tom & Jerry,Hecuba,small,training,Pop,data/raw/fma_small/000/000822.mp3,29.976575963718822
+890,Softly Tomorrow,Ilyas Ahmed,small,test,Folk,data/raw/fma_small/000/000890.mp3,29.976575963718822
+892,Phantom Sky,Ilyas Ahmed,small,test,Folk,data/raw/fma_small/000/000892.mp3,29.976575963718822
+1193,Wooly Mammoth's Absence,Mount Eerie,small,training,Folk,data/raw/fma_small/001/001193.mp3,30.00269841269841
+1195,With My Hands Out,Mount Eerie,small,training,Folk,data/raw/fma_small/001/001195.mp3,30.00269841269841
+1196,2 Blonde Braids,Mount Eerie,small,training,Folk,data/raw/fma_small/001/001196.mp3,30.00269841269841
+1197,My Burning,Mount Eerie,small,training,Folk,data/raw/fma_small/001/001197.mp3,29.976575963718822
+1544,Song of The Stations,Samara Lubelski,small,training,Folk,data/raw/fma_small/001/001544.mp3,30.00269841269841
+1642,Hrz,So Cow,small,training,Pop,data/raw/fma_small/001/001642.mp3,29.988979166666667
+1644,Outskirts,So Cow,small,training,Pop,data/raw/fma_small/001/001644.mp3,29.988979166666667
+1649,Inis Meain,So Cow,small,training,Pop,data/raw/fma_small/001/001649.mp3,29.988979166666667
+1661,Only Fools and Horses Theme,So Cow,small,training,Pop,data/raw/fma_small/001/001661.mp3,29.988979166666667
+1663,So High,Softboiled Eggies,small,training,Pop,data/raw/fma_small/001/001663.mp3,30.00269841269841
+1666,She Fell Through the Trees,Softboiled Eggies,small,training,Pop,data/raw/fma_small/001/001666.mp3,29.976575963718822
+1701,Clouds,Spires That in the Sunset Rise,small,training,Folk,data/raw/fma_small/001/001701.mp3,29.976575963718822
+1702,Java Pop,Spires That in the Sunset Rise,small,training,Folk,data/raw/fma_small/001/001702.mp3,30.00269841269841
+1703,Equus Haar,Spires That in the Sunset Rise,small,training,Folk,data/raw/fma_small/001/001703.mp3,29.976575963718822
+1704,Morning Song,Spires That in the Sunset Rise,small,training,Folk,data/raw/fma_small/001/001704.mp3,30.00269841269841
+1893,Memories,Tommy Jay,small,validation,Folk,data/raw/fma_small/001/001893.mp3,29.976575963718822
+1924,Calling For You,The Twin Atlas,small,training,Folk,data/raw/fma_small/001/001924.mp3,29.976575963718822
+1925,Happy At The Wheel,The Twin Atlas,small,training,Folk,data/raw/fma_small/001/001925.mp3,30.00269841269841
+2097,My Sweet Miasma,Hall Of Fame,small,training,Folk,data/raw/fma_small/002/002097.mp3,30.00269841269841
+2099,....like bacon sundays,luc,small,training,Pop,data/raw/fma_small/002/002099.mp3,29.976575963718822
+3263,A Date,Ai Aso,small,validation,Folk,data/raw/fma_small/003/003263.mp3,29.976575963718822
+3264,Tee Te Te,Ai Aso,small,validation,Folk,data/raw/fma_small/003/003264.mp3,29.976575963718822
+3265,Lavender,Ai Aso,small,validation,Folk,data/raw/fma_small/003/003265.mp3,30.00269841269841
+3266,Land,Ai Aso,small,validation,Folk,data/raw/fma_small/003/003266.mp3,30.00269841269841
+3270,Song for Obol,Arborea,small,training,Folk,data/raw/fma_small/003/003270.mp3,29.976575963718822
+3271,Beirut,Arborea,small,training,Folk,data/raw/fma_small/003/003271.mp3,29.976575963718822
+3272,Seadrift,Arborea,small,training,Folk,data/raw/fma_small/003/003272.mp3,29.976575963718822
+3273,Redbird,Arborea,small,training,Folk,data/raw/fma_small/003/003273.mp3,30.00269841269841
+3274,Forewarned,Arborea,small,training,Folk,data/raw/fma_small/003/003274.mp3,30.00269841269841
+3532,Heaven Is Human,Cryptacize,small,training,Pop,data/raw/fma_small/003/003532.mp3,30.00269841269841
+3533,New Spell,Cryptacize,small,training,Pop,data/raw/fma_small/003/003533.mp3,30.00269841269841
+3534,Cosmic Sing-a-long,Cryptacize,small,training,Pop,data/raw/fma_small/003/003534.mp3,29.976575963718822
+3535,No Coins,Cryptacize,small,training,Pop,data/raw/fma_small/003/003535.mp3,29.976575963718822
+3537,We'll Never Dream Again,Cryptacize,small,training,Pop,data/raw/fma_small/003/003537.mp3,29.976575963718822
+3538,Say You Will,Cryptacize,small,training,Pop,data/raw/fma_small/003/003538.mp3,29.976575963718822
+3598,Little Eyes,Ed Askew,small,training,Folk,data/raw/fma_small/003/003598.mp3,29.976575963718822
+3707,Stable the Spuds,Gary Higgins,small,training,Folk,data/raw/fma_small/003/003707.mp3,30.00269841269841
+3708,Thicker Than A Smokey,Gary Higgins,small,training,Folk,data/raw/fma_small/003/003708.mp3,29.976575963718822
+3832,Bedoin Song,Lior,small,training,Folk,data/raw/fma_small/003/003832.mp3,29.976575963718822
+3880,Crawling,Mary Halvorson and Jessica Pavone,small,training,Folk,data/raw/fma_small/003/003880.mp3,29.976575963718822
+3904,Sometimes,Michael Chapman,small,training,Folk,data/raw/fma_small/003/003904.mp3,30.00269841269841
+3905,Twisted Road,Michael Chapman,small,training,Folk,data/raw/fma_small/003/003905.mp3,29.976575963718822
+3906,Sometimes,Michael Chapman,small,training,Folk,data/raw/fma_small/003/003906.mp3,30.00269841269841
+3908,Caddo Lake,Michael Chapman,small,training,Folk,data/raw/fma_small/003/003908.mp3,29.976575963718822
+3909,Dewbury Road / That Time of Night,Michael Chapman,small,training,Folk,data/raw/fma_small/003/003909.mp3,29.976575963718822
+3910,Kodak Ghosts,Michael Chapman,small,training,Folk,data/raw/fma_small/003/003910.mp3,29.976575963718822
+3911,Dust Devils,Michael Chapman,small,training,Folk,data/raw/fma_small/003/003911.mp3,30.00269841269841
+3912,Fahey's Flag,Michael Chapman,small,training,Folk,data/raw/fma_small/003/003912.mp3,29.976575963718822
+3913,Memhpis in Winter,Michael Chapman,small,training,Folk,data/raw/fma_small/003/003913.mp3,29.976575963718822
+3920,Fragrant Rota,Michael Holt,small,training,Folk,data/raw/fma_small/003/003920.mp3,29.976575963718822
+3921,Hiawatha's Lullaby,Michael Holt,small,training,Folk,data/raw/fma_small/003/003921.mp3,30.00269841269841
+4013,Ravens,Nalle,small,training,Folk,data/raw/fma_small/004/004013.mp3,29.976575963718822
+4017,New Roots,Nalle,small,training,Folk,data/raw/fma_small/004/004017.mp3,29.976575963718822
+4037,Oh! Mighty Engine,Neil Halstead,small,training,Folk,data/raw/fma_small/004/004037.mp3,30.00269841269841
+4066,Soleade,Peter Walker,small,training,Folk,data/raw/fma_small/004/004066.mp3,29.976575963718822
+4067,Por Rosa,Peter Walker,small,training,Folk,data/raw/fma_small/004/004067.mp3,29.976575963718822
+4068,Alegrias Variation,Peter Walker,small,training,Folk,data/raw/fma_small/004/004068.mp3,30.00269841269841
+4069,Tune on Karen Dalton's Guitar,Peter Walker,small,training,Folk,data/raw/fma_small/004/004069.mp3,29.976575963718822
+4450,Adventures of Castle One,Twi the Humble Feather,small,training,Folk,data/raw/fma_small/004/004450.mp3,29.976575963718822
+5156,Circles,Peter Biedermann,small,training,Folk,data/raw/fma_small/005/005156.mp3,29.976575963718822
+5157,Copenhagen,Peter Biedermann,small,training,Folk,data/raw/fma_small/005/005157.mp3,30.00269841269841
+5158,Running,Peter Biedermann,small,training,Folk,data/raw/fma_small/005/005158.mp3,29.976575963718822
+5159,Christiania,Peter Biedermann,small,training,Folk,data/raw/fma_small/005/005159.mp3,30.00269841269841
+5169,The Uncommon Man,Peter Biedermann,small,training,Folk,data/raw/fma_small/005/005169.mp3,30.00269841269841
+5170,Labyrinth,Peter Biedermann,small,training,Folk,data/raw/fma_small/005/005170.mp3,30.00269841269841
+5171,Cover Up,Peter Biedermann,small,training,Folk,data/raw/fma_small/005/005171.mp3,30.00269841269841
+5191,Say What You Feel,caUSE co-MOTION,small,validation,Pop,data/raw/fma_small/005/005191.mp3,30.00269841269841
+5376,The Clouds,Mary Halvorson and Jessica Pavone,small,training,Folk,data/raw/fma_small/005/005376.mp3,29.976575963718822
+5381,Hartford,Mary Halvorson and Jessica Pavone,small,training,Folk,data/raw/fma_small/005/005381.mp3,30.00269841269841
