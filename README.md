@@ -1,6 +1,6 @@
-# Markov Mashup Planner
+# Markov Mashup Maker
 
-Markov Mashup Planner is an AI tool for discovering and building mashups and DJ sets, where transitions between songs are just as important as the songs themselves.
+Markov Mashup Maker is an AI tool for discovering and building mashups and DJ sets, where transitions between songs are just as important as the songs themselves.
 
 The project treats mashup planning as a **Markovian transition-planning problem**: each song or section is a musical state, and the system scores possible next transitions using audio features, music theory-based priors, and a learned pairwise reward model.
 
