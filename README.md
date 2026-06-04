@@ -3,11 +3,7 @@
 Markov Mashup Maker is an AI tool for discovering and building mashups and DJ sets, where transitions between songs are just as important as the songs themselves.
 
 The project treats mashup planning as a **Markovian transition-planning problem**: each song or section is a musical state, and the system scores possible next transitions using audio features, music theory-based priors, and a learned pairwise reward model.
-
-The app supports two main use cases:
-
-1. **Use the product**: upload songs, discover strong transitions, and generate mashup route options.
-2. **Train your own reward model**: collect pairwise transition preferences and retrain the transition reward model.
+So, you simply upload songs, discover strong transitions, and generate mashup route options.
 
 For a direct mapping to the project rubric, see [`RUBRIC_RESPONSES.md`](RUBRIC_RESPONSES.md).
 
