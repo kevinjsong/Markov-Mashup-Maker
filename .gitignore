@@ -1,7 +1,31 @@
-data/raw/
-outputs/previews/
-models/
+# Python
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
+
+# Environments
+.env
+.venv/
+venv/
+
+# OS/editor
 .DS_Store
+.vscode/
+
+# Local data, raw datasets, uploads, generated processed files
+data/
+outputs/
+
+# Audio files
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.aiff
+*.aif
+
+# Logs/temp
+*.log
