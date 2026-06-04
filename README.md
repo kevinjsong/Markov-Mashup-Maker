@@ -9,7 +9,7 @@ The app supports two main use cases:
 1. **Use the product**: upload songs, discover strong transitions, and generate mashup route options.
 2. **Train your own reward model**: collect pairwise transition preferences and retrain the transition reward model.
 
-For a direct mapping to the CS 153 project rubric, see [`RUBRIC_RESPONSES.md`](RUBRIC_RESPONSES.md).
+For a direct mapping to the project rubric, see [`RUBRIC_RESPONSES.md`](RUBRIC_RESPONSES.md).
 
 ## Setup
 
@@ -66,23 +66,34 @@ The planner uses beam search to generate route options from the selected startin
 
 ## 2. Do pairwise training yourself
 
-The reward model is trained from pairwise transition preferences.
+The reward model is trained from my pairwise transition preferences. However, you can download the FMA dataset and do this yourself!
+FMA dataset: https://github.com/mdeff/fma
 
-The expected training files are in:
+Expected local folder structure:
 
-```text
-data/training_processed/
-```
+data/
+├── raw/
+│ ├── fma_small/
+│ │ ├── 000/
+│ │ │ ├── 000002.mp3
+│ │ │ └── ...
+│ │ └── ...
+│ └── fma_metadata/
+│ ├── tracks.csv
+│ ├── genres.csv
+│ ├── features.csv
+│ └── echonest.csv
+├── training_processed/
+│ ├── tracks.csv
+│ ├── sections.csv
+│ ├── transition_candidates.csv
+│ ├── preferences.csv
+│ ├── pseudo_preferences.csv
+│ └── transition_candidates_scored.csv
+├── user_uploads/
+└── setlist_audio/
 
-Key files:
-
-```text
-tracks.csv
-sections.csv
-transition_candidates.csv
-preferences.csv
-pseudo_preferences.csv
-```
+The data/raw/ files come from FMA or local demo audio. The data/training_processed/ files are generated locally and are not committed.
 
 Collect pairwise preferences:
 
