@@ -70,7 +70,9 @@ The reward model is trained from my pairwise transition preferences. However, yo
 FMA dataset: https://github.com/mdeff/fma
 
 Expected local folder structure:
+(The data/raw/ files come from FMA or local demo audio. The data/training_processed/ files are generated locally and are not committed.)
 
+```text
 data/
 ├── raw/
 │ ├── fma_small/
@@ -80,8 +82,7 @@ data/
 │ ├── transition_candidates.csv
 │ └── ...
 └── ...
-
-The data/raw/ files come from FMA or local demo audio. The data/training_processed/ files are generated locally and are not committed.
+```
 
 Collect pairwise preferences:
 
