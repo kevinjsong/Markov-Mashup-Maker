@@ -1,8 +1,11 @@
-pandas
 numpy
+pandas
+scipy
+scikit-learn
+joblib
+torch
 librosa
 soundfile
-scikit-learn
+streamlit
 tqdm
 matplotlib
-torch
