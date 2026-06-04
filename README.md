@@ -74,24 +74,12 @@ Expected local folder structure:
 data/
 ├── raw/
 │ ├── fma_small/
-│ │ ├── 000/
-│ │ │ ├── 000002.mp3
-│ │ │ └── ...
-│ │ └── ...
 │ └── fma_metadata/
-│ ├── tracks.csv
-│ ├── genres.csv
-│ ├── features.csv
-│ └── echonest.csv
 ├── training_processed/
-│ ├── tracks.csv
-│ ├── sections.csv
+│ ├── ...
 │ ├── transition_candidates.csv
-│ ├── preferences.csv
-│ ├── pseudo_preferences.csv
-│ └── transition_candidates_scored.csv
-├── user_uploads/
-└── setlist_audio/
+│ └── ...
+└── ...
 
 The data/raw/ files come from FMA or local demo audio. The data/training_processed/ files are generated locally and are not committed.
 
