@@ -18,10 +18,10 @@ This project was developed with Python 3.10.
 ```bash
 conda create -n mashup python=3.10
 conda activate mashup
-pip install numpy pandas scipy scikit-learn joblib torch librosa soundfile streamlit
+pip install numpy pandas scipy scikit-learn joblib torch librosa soundfile streamlit tqdm
 ```
 
-## 1. Use the product
+## Quickstart Instructions
 
 Start the Streamlit app:
 
@@ -63,75 +63,6 @@ Use this when you want full route examples. This mode requires:
 - transposition style
 
 The planner uses beam search to generate route options from the selected starting state.
-
-## 2. Do pairwise training yourself
-
-The reward model is trained from my pairwise transition preferences. However, you can download the FMA dataset and do this yourself!
-FMA dataset: https://github.com/mdeff/fma
-
-Expected local folder structure:
-(The data/raw/ files come from FMA or local demo audio. The data/training_processed/ files are generated locally and are not committed.)
-
-```text
-data/
-├── raw/
-│ ├── fma_small/
-│ └── fma_metadata/
-├── training_processed/
-│ ├── ...
-│ ├── transition_candidates.csv
-│ └── ...
-└── ...
-```
-
-Collect pairwise preferences:
-
-```bash
-python src/collect_context_feedback.py \
-  --tracks_csv data/training_processed/tracks.csv \
-  --sections_csv data/training_processed/sections.csv \
-  --candidates_csv data/training_processed/transition_candidates.csv \
-  --preferences_csv data/training_processed/preferences.csv \
-  --preview_dir outputs/previews \
-  --max_pairs 120 \
-  --epsilon 0.5
-```
-
-Generate pseudo-preferences:
-
-```bash
-python src/make_pseudo_preferences.py \
-  --candidates_csv data/training_processed/transition_candidates.csv \
-  --output_csv data/training_processed/pseudo_preferences.csv \
-  --max_pairs 2000 \
-  --score_margin 0.12
-```
-
-Retrain the reward model:
-
-```bash
-python src/train_reward_model.py \
-  --candidates_csv data/training_processed/transition_candidates.csv \
-  --pseudo_preferences_csv data/training_processed/pseudo_preferences.csv \
-  --human_preferences_csv data/training_processed/preferences.csv \
-  --model_dir models \
-  --epochs 200
-```
-
-Rescore transition candidates:
-
-```bash
-python src/score_transition_candidates.py \
-  --candidates_csv data/training_processed/transition_candidates.csv \
-  --output_csv data/training_processed/transition_candidates_scored.csv \
-  --model_dir models
-```
-
-Then restart the app:
-
-```bash
-streamlit run app/streamlit_app.py
-```
 
 ## Technical summary
 
